@@ -18,12 +18,19 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.batch-outline {
+  border: 1px solid #484848;
+  color: #484848;
+  border-radius: 6px;
+  padding: 0.15rem 0.3rem 0.05rem;
+  font-size: .7rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 @layer utilities {
