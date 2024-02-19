@@ -11,10 +11,10 @@ import ChatIcon from '../icons/chat';
 import TodoListIcon from '../icons/todo';
 import BuilderIcon from '../icons/builder';
 
-const Carousel = async () => {
+const CategorySlider = async () => {
 
   return (
-    <div className="flex w-full my-20">
+    <div className="flex w-full mt-20">
       <Swiper
         slidesPerView={7}
         spaceBetween={5}
@@ -89,4 +89,4 @@ const Carousel = async () => {
 
   );
 };
-export default Carousel;
+export default CategorySlider;

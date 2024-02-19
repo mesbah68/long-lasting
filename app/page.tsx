@@ -1,4 +1,5 @@
-import Carousel from "./_components/carousel/page";
+import CategorySlider from "./_components/carousel/categorySlider";
+import UsecaseSlider from "./_components/carousel/usecaseSlider";
 import Header from "./_components/header/page";
 import Navbar from "./_components/navbar/page";
 import Section from "./_components/section/page";
@@ -9,7 +10,8 @@ export default function Home() {
       <Navbar />
       <Header />
       <Section />
-      <Carousel />
-    </main >
+      <CategorySlider />
+      <UsecaseSlider />
+    </main>
   );
 }
